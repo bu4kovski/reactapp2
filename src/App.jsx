@@ -13,6 +13,8 @@ const App = () => {
   // {/* <LifecycleFuncComponent />
   // <LifecycleClassComponent /> */}
 
+  //test//
+
   // </>);
 // }
 export default App;
