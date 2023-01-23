@@ -1,20 +1,19 @@
-import LifecycleFuncComponent from "./components/LifecycleFuncComponent";
-import LifecycleClassComponent from "./components/LifecycleClassComponent";
-import { LogIn } from "./components/LogIn"
+import Todo from "./components/Todo";
+import "./css/style.css";
 
 const App = () => {
-  return (<div>
-    <LogIn />
-    </div> )
+  return (
+    <>
+      <Todo />
+    </>
+  );
+};
 
-  }
+// {/* <LifecycleFuncComponent />
+// <LifecycleClassComponent /> */}
 
+//test//
 
-  // {/* <LifecycleFuncComponent />
-  // <LifecycleClassComponent /> */}
-
-  //test//
-
-  // </>);
+// </>);
 // }
 export default App;
